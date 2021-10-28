@@ -28,3 +28,10 @@ before running on Docker config .env file first
 docker build .
 docker-compose up -d
 ```
+
+too rebuild image with docker-compose
+
+```Shell
+docker-compose down --remove-orphans --volumes
+docker-compose up --build
+```
