@@ -3,6 +3,7 @@
 type this command to run:
 
 ```Shell
+go get
 go run main.go
 ```
 
